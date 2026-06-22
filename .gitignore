@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data — raw videos and processed arrays (large files, not versioned)
+data/raw/
+data/processed/
+data/kaggle_raw/
+
+# Model weights and exports (large binary files)
+checkpoints/
+exports/
+
+# Gloss embedding cache (auto-regenerated)
+data/gloss_embeddings.npy
+data/label_map.json
+
+# TensorBoard logs and training CSV
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# pytest cache
+.pytest_cache/
+
+# Kaggle credentials — NEVER commit this
+.kaggle/
+kaggle.json
